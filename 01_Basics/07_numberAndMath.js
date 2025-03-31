@@ -33,6 +33,13 @@ console.log(num.toLocaleString()); // '1,000,000' (it conver in US locale)
 //So :-
 console.log(num.toLocaleString('en-IN')); // '10,00,000' (it conver in Indian locale)
 
+//to find the minimum and maximum value of a number
+//6. Number.MIN_VALUE - returns the smallest number that can be represented in JavaScript
+console.log(Number.MIN_VALUE); // 5e-324
+
+//7. Number.MAX_VALUE - returns the largest number that can be represented in JavaScript
+console.log(Number.MAX_VALUE); // 1.7976931348623157e+308
+
 
 //----------------------------Math----------------------//
 //Math is a built-in object that has properties and methods for mathematical constants and functions
