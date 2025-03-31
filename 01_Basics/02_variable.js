@@ -82,3 +82,13 @@ console.log(pi); // 3.14
     console.log(name); // it will not print anything and will give an error
 }
 
+
+
+/* In the javaScript if we can only declare the variable,then it is by default consider as undefined*/
+//Eg:-
+let city;
+
+console.log(city); // undefined
+//in the above code i am declaring the variable city but not assigning any value to it
+//so it is by default consider as undefined
+
